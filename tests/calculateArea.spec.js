@@ -27,8 +27,8 @@ describe("Iteration 3", () => {
       });
 
       it ("The function should return undefined if any  the  arguments is not a number", () =>{
-        expect(add("hoello", 2)).toEqual(undefined);
-        expect(add(3, "ohhh")).toEqual(undefined);
+        expect(calculateArea("hoello", 2)).toEqual(undefined);
+        expect(calculateArea(3, "ohhh")).toEqual(undefined);
 
     });    
 });
